@@ -13,6 +13,6 @@ jobs:
 
     steps:
     - name: make
-      run: make all
+      run: make
     - name: run
       run: ./WorkFlowTest.exe
