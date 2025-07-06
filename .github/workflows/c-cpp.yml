@@ -14,6 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: make
-      run: echo "triggering build task"
+      run: make
     - name: run
-      run: echo "running ./WorkFlowTest.exe"
+      run: ./WorkFlowTest.exe
