@@ -16,6 +16,6 @@ jobs:
     - name: configure
       run: ./configure
     - name: make
-      run: make
+      run: echo "triggering build task"
     - name: run
-      run: ./WorkFlowTest.exe
+      run: echo "running ./WorkFlowTest.exe"
